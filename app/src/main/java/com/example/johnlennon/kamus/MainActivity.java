@@ -3,6 +3,8 @@ package com.example.johnlennon.kamus;
 import android.app.Activity;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.res.Configuration;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.AppCompatActivity;
@@ -10,7 +12,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
-
+import android.view.View;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -21,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         //setContentView(R.layout.activity_main);
         FragmentManager fm = getFragmentManager();
         FragmentTransaction fts = fm.beginTransaction();
+
 
         Configuration configInfo = getResources().getConfiguration();
 
@@ -38,6 +41,35 @@ public class MainActivity extends AppCompatActivity {
         }
 
         fts.commit();
+
+        View.OnClickListener listener = new View.OnClickListener()
+        {
+            public void onClick(View v){
+            switch (v.getId())
+            {
+                case R.id.transport_btn:
+                    Log.d("Button", "Click Transport");
+                    break;
+
+                case R.id.hewan_btn:
+                    Log.d("Button", "Click Hewan");
+                    break;
+
+                case R.id.tumbuhan_btn:
+                    Log.d("Button", "Clcik tumbuhan");
+                    break;
+
+                case R.id.profesi_btn:
+                    Log.d("Button", "Click Profesi");
+                    break;
+            }
+            }
+        };
+        findViewById(R.id.transport_btn).setOnClickListener(listener);
+        findViewById(R.id.hewan_btn).setOnClickListener(listener);
+        findViewById(R.id.tumbuhan_btn).setOnClickListener(listener);
+        findViewById(R.id.profesi_btn).setOnClickListener(listener);
+
     }
 
     @Override

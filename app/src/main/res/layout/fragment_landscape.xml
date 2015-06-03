@@ -30,14 +30,14 @@
             android:layout_width="170dp"
             android:layout_height="match_parent"
             android:text="@string/transport_text"
-            android:drawableLeft="@drawable/car" />
+            android:drawableLeft="@drawable/car"/>
 
         <Button
             android:id="@+id/hewan_btn"
             android:layout_width="170dp"
             android:layout_height="match_parent"
             android:text="@string/hewan_text"
-            android:drawableLeft="@drawable/cat"/>
+            android:drawableLeft="@drawable/cat" />
     </LinearLayout>
 
     <LinearLayout
@@ -50,7 +50,7 @@
             android:layout_width="170dp"
             android:layout_height="match_parent"
             android:text="@string/buah_text"
-            android:drawableLeft="@drawable/fruit" />
+            android:drawableLeft="@drawable/fruit"/>
 
 
         <Button
@@ -58,7 +58,7 @@
             android:layout_width="170dp"
             android:layout_height="match_parent"
             android:text="@string/profesi_text"
-            android:drawableLeft="@drawable/captain" />
+            android:drawableLeft="@drawable/captain"/>
 
     </LinearLayout>
 
