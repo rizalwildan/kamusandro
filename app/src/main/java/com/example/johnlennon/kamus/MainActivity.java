@@ -43,6 +43,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (v.getId())
         {
             case R.id.transport_btn:
+                Toast.makeText(MainActivity.this, "Halaman Transport", Toast.LENGTH_SHORT).show();
                 Log.d("Button1", "Button Transport");
                 break;
 
