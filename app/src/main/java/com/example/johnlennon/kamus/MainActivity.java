@@ -3,6 +3,7 @@ package com.example.johnlennon.kamus;
 import android.app.Activity;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
+import android.content.Intent;
 import android.content.res.Configuration;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.AppCompatActivity;
@@ -19,7 +20,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+    int imageID[] = {R.drawable.car, R.drawable.captain};
     @Override
 
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,7 +46,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (v.getId())
         {
             case R.id.transport_btn:
-                Toast.makeText(MainActivity.this, "Halaman Transport", Toast.LENGTH_SHORT).show();
+                Intent getNameScreen = new Intent(this, PageContainActivity.class);
+
+                getNameScreen.putExtra("gambar", imageID);
+
+                startActivity(getNameScreen);
+
                 Log.d("Button1", "Button Transport");
                 break;
 
