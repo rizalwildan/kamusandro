@@ -2,32 +2,32 @@
 <items version="2" >
 
     <item
-        jar="E:\Workspace\Kamusandro\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
-        <dex dex="E:\Workspace\Kamusandro\app\build\intermediates\pre-dexed\debug\classes-3f5884598ab4d7defbaa5781db49ed1a6ff0007c.jar" />
-    </item>
-    <item
-        jar="E:\Workspace\Kamusandro\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jar="E:\workspace\kam\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
-        <dex dex="E:\Workspace\Kamusandro\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-390a5b975bbb8ed2a4c37d7980cda25f6b43604b.jar" />
+        <dex dex="E:\workspace\kam\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-00377be9cef8733f53de85c52cd795433a4d81f8.jar" />
     </item>
     <item
-        jar="E:\Android Sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jar="E:\workspace\kam\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
-        <dex dex="E:\Workspace\Kamusandro\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-2f8426de542ba0724fc7ada98c86570d1c1941a7.jar" />
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="E:\workspace\kam\app\build\intermediates\pre-dexed\debug\classes-0b72019f4bd6af3eb30143b07cbd808f7c234a52.jar" />
     </item>
     <item
-        jar="E:\Workspace\Kamusandro\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jar="E:\workspace\kam\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
-        <dex dex="E:\Workspace\Kamusandro\app\build\intermediates\pre-dexed\debug\classes-07323eebc8c32806b7011f4b4083291e930c6f47.jar" />
+        <dex dex="E:\workspace\kam\app\build\intermediates\pre-dexed\debug\classes-ceb48f243d45809419935cb718882760928d774e.jar" />
+    </item>
+    <item
+        jar="E:\android SDK\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="E:\workspace\kam\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-f51d810ff971742b9c13f490bc1e758abbbf28af.jar" />
     </item>
 
 </items>
