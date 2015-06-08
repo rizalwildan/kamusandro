@@ -1,28 +1,17 @@
 package com.example.johnlennon.kamus;
 
-import android.app.Activity;
-import android.app.FragmentManager;
-import android.app.FragmentTransaction;
 import android.content.Intent;
-import android.content.res.Configuration;
-import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.text.Layout;
 import android.util.Log;
-import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.TextView;
-import android.widget.Toast;
-
 
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-    int imageID[] = {R.drawable.car, R.drawable.captain};
+
     @Override
 
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,19 +28,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnBuah.setOnClickListener(this);
         btnProfesi.setOnClickListener(this);
 
+
+
     }
+
+
 
     public void onClick(View v)
     {
         switch (v.getId())
         {
             case R.id.transport_btn:
-                Intent getNameScreen = new Intent(this, PageContainActivity.class);
-
-                getNameScreen.putExtra("gambar", imageID);
-
+                Intent getNameScreen = new Intent(this, TransportActivity.class);
                 startActivity(getNameScreen);
-
                 Log.d("Button1", "Button Transport");
                 break;
 
