@@ -8,4 +8,8 @@
     <string name="buah_text">Buah</string>
     <string name="profesi_text">Profesi</string>
     <string name="title">Pilih Kategori Kamus</string>
+    <string-array name="title">
+        <item>Mobil</item>
+        <item>Speda Motor</item>
+    </string-array>
 </resources>
